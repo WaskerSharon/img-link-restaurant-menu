@@ -6,19 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>restaurant menu</title>
     <link rel="stylesheet" href="style.css">
+    <!-- https://soupnutsy.ca/Daily-Menu.aspx?lid=1&location=Toronto%20Dominion%20Centre -->
 </head>
 <body>
     <header>
-            <a href="https://www.facebook.com/sharon.shemeshwasker" target="-blank"><img class="facebook-icon" src="11.8 img link resturant menu/../img/if_facebook_295880.svg" alt=""></a> 
-        <a href="https://en.wikipedia.org/wiki/The_Soup_Nazi" target="-blank"><h1>The Soup Nazi Menu</h1></a>
-      <figure>
-        <a href="https://en.wikipedia.org/wiki/Tomato" target="_blank"><img class="food-pic" src="11.8 img link resturant menu/../img/tomato.jpg" alt="couple of tomatoes with german flag"></a>
+            <a href="https://www.facebook.com/sharon.shemeshwasker" target="-blank">
+                <img class="facebook-icon" src="11.8 img link resturant menu/../img/if_facebook_295880.svg" alt=""></a> 
+       
+                <a href="https://en.wikipedia.org/wiki/The_Soup_Nazi" target="-blank"><h1>The Soup Nazi Menu</h1></a>
+     
+        <figure>
+     
+        <a href="https://en.wikipedia.org/wiki/Tomato" target="_blank">
+               <img class="food-pic" src="11.8 img link resturant menu/../img/tomato.jpg" alt="couple of tomatoes with german flag"></a>
             <figcaption>Fig.1 Romantic Tomatoes</figcaption>
-        <a href="https://en.wikipedia.org/wiki/Bell_pepper" target="_blank"><img class="food-pic" src="11.8 img link resturant menu/../img/peper.jpg" alt=""></a>
+      
+            <a href="https://en.wikipedia.org/wiki/Bell_pepper" target="_blank">
+               <img class="food-pic" src="11.8 img link resturant menu/../img/peper.jpg" alt="Paprika in Shock"></a>
             <figcaption>Fig.2 Paprika in Shock</figcaption>   
-        <a href="https://en.wikipedia.org/wiki/Plate" target="_blank"><img class="food-pic" src="11.8 img link resturant menu/../img/plate.jpg" alt=""></a>
+    
+            <a href="https://en.wikipedia.org/wiki/Plate" target="_blank">
+                 <img class="food-pic" src="11.8 img link resturant menu/../img/plate.jpg" alt="Beans on Plate"></a>
             <figcaption>Fig.3 Beans on Plate</figcaption>
-    </figure>
+       </figure>
+    </header>
+
+    <form action="" method="GET">
+
+        <h2>Welcome to Soup Nazi Online</h2>
+        <p>please place your order here</p><br>
+
+        <label for="name"><h3>How much do you like soup from 1 to 5?</h3></label>
+        <input type="range" name="volume" min="1" max="5"><br><br>
+
+        <label for="name"><h3>Soups recomended by us:</h3></label>
+            <select name="featuredSoups" >
+
+                <optgroup label="Featured Soups:">
+                    <option value="featured">Meat & Poultry Soups</option>
+                    <option value="featured">Vegetable Soups</option>
+                    <option value="featured">Seafood Soups</option>
+                    <option value="featured">Chilled Soups</option>
+                    <option value="featured">Quinoa Soups</option>
+                </optgroup>
+            </select><br><br>
+
+            <label for="name"><h3>Side dishes next to the soup:</h3></label>
+            Shkedei marak<input type="checkbox" name="asides" value="Shkedei marak">
+            Croutons<input type="checkbox" name="asides" value="Croutons">
+            Noodles<input type="checkbox" name="asides" value="Noodles">
+            Salad<input type="checkbox" name="asides" value="Salad">
+            Extra pepper<input type="checkbox" name="asides" value="Extra pepper"><br><br>
+
+            <label for="name"><h3>Dominant taste you prefer:</h3></label>
+            Spicy<input type="radio" name="taste" value="Spicy">
+            Salty<input type="radio" name="taste" value="Salty">
+            Sour<input type="radio" name="taste" value="Sour">
+            Sweet<input type="radio" name="taste" value="Sweet">
+            Somewhere in between<input type="radio" name="taste" value="Somewhere in between"><br><br><br>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="anything else we need to know about your soup?"></textarea><br><br>
+
+                <label for="name">First Name</label>
+                <input type="text" name="fname" id=""><br><br>
+
+                <label for="name">Last Name</label>
+                <input type="text" name="lname" id=""><br><br>
+
+                <label for="name">E-Mail</label>
+                <input type="text" name="email" id=""><br><br>
+
+                <label for="name">Phone number</label>
+                <input type="text" name="phone" id=""><br><br>
+
+                <label for="name">Customer Number</label>
+                <input type="text" name="cNmbr" id="" value="5894" readonly><br><br>
+
+                <input type="hidden" name="noSoupForYou" value="Seinfeld" readonly>
+
+                <input type="submit" name="" id="">
+
+    </form>
+
         <article>
             <h2>Vegetable Soups</h2>
                 <dl>
@@ -28,14 +97,17 @@
                          These are raised to unbelievable heights of sophistication--bathed in 
                          cream and robed in fresh herbs and seasonings. It's a soup fit for Kubla
                           Khan and his stately pleasure-dome in Xanadu</dd>
+
                     <dt>Hearty Minestrone</dt>
                       <dd>This Italian vegetable soup with pasta is packed with flavour
                            & ingredients! Tomatoes, carrots, kidney beans, potatoes, Italian green beans, spinach, 
                           celery, peas and zucchini harmoniously fill a soup bowl with colour and appetite. Hearty-Soup Nutsy style.</dd>
+
                     <dt>Mexicali Tomato, Corn & Tortilla</dt>
                         <dd>Hey amigo, remember this soup back in Mexico. Filled with red beans,
                              tomatoes, and corn, garnished with cilantro and tortillas with a hint
                               of chili peppers to give it a spicy punch.</dd>
+
                     <dt>Russet Potato & Leek Chowder</dt>
                             <dd>A potato lovers dream!  Fully loaded with all the fixins and ready to please.  Treat yourself 
                                 and forget the carbs, tomorrow is another day.  Besides if you were thinking of French fries,
@@ -48,16 +120,18 @@
                             sweet red pepper & cucumber. We added just enough luscious
                             lime & lemon to create a thirst quenching chilled summer soup that will
                             please everyone. Delicious…Refreshing… Nutritious…</dd>
+
                     <dt>Avocado & Cucumber Soup</dt>
                         <dd>The combination of English cucumbers and avocadoes with the right amount of spice with and
                             a hint of cilantro blended in a rich cream, makes this chilled soup a summer favourite.
                             Refreshing and satisfying!</dd>
+
                     <dt>Citrus - Shrimp Gazpacho</dt>
                         <dd>A different twist to our regular gazpacho. The citrus flavours are highlighted
                             with sweet baby shrimp, crisp vegetables and a few selected spices. Chill out this
                             summer with a truly refreshing soup.</dd>
                 </dl>
         </article>
-    </header>
+    
 </body>
 </html>
